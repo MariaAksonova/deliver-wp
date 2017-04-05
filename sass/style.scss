@@ -1,0 +1,18 @@
+@import "variable";
+@import "header";
+@import "home";
+@import "blog";
+@import "sidebar";
+@import "footer";
+
+.page-title {
+  background: url("./images/bg.png");
+  background-size: cover;
+
+  h2 {
+    font-size: 36px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 30px 0;
+  }
+}

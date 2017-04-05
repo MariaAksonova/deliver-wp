@@ -1,0 +1,40 @@
+@import "variable";
+
+.header-container {
+  h1 {
+    margin: 0;
+    padding: 40px 0;
+    border-bottom: 1px solid $bg-color;
+  }
+
+  .menu-item {
+    a {
+      padding: 30px 36px 30px 0;
+      color: $main-color;
+      text-transform: uppercase;
+      font-size: 18px;
+
+      &:hover, &:focus, &:active {
+        background-color: transparent;
+        color: $green-color;
+      }
+    }
+  }
+}
+
+.page-template-home-template {
+  .main-header {
+    background: url("./images/header-bg.png") no-repeat;
+    height: 100vh;
+  }
+
+  .menu-item {
+    a {
+      color: #fff;
+    }
+  }
+
+  .custom-logo {
+    filter: brightness(250%);
+  }
+}
