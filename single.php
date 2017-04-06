@@ -37,7 +37,7 @@ get_header(); ?>
 									<span class="comments"><?php comments_number('no comments', '1 comment', '% comments'); ?></span>
 								</div>
 								<div class="content">
-									<?php the_excerpt(); ?>
+									<?php the_content(); ?>
 								</div>
 							</div>
 						</article>

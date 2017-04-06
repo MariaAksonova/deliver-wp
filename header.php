@@ -30,16 +30,16 @@
                     <nav id="site-navigation" class="main-navigation" role="navigation">
                         <?php wp_nav_menu(['theme_location' => 'main-nav', 'menu_class' => 'nav nav-pills']); ?>
                     </nav>
-<!--                    --><?php //if ( is_page('home') ) :?>
-<!--                    <div class="header-content">-->
-<!--                        <h1>We <span class="green-text">Deliver</span> nothing Short of Awesome!</h1>-->
-<!--                        <p>Check out our portfolio to see our great work.</p>-->
-<!--                        <div class="col-xs-12">-->
-<!--                            <a href="#" class="main-btn">Portfolio</a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    --><?php //endif; ?>
                 </div>
+                <?php if ( is_page('home') ) :?>
+                    <div class="header-content">
+                        <h1>We <span class="green-text">Deliver</span> nothing Short of Awesome!</h1>
+                        <p>Check out our portfolio to see our great work.</p>
+                        <div class="col-xs-12">
+                            <a href="#" class="main-btn">Portfolio</a>
+                        </div>
+                    </div>
+                <?php endif; ?>
             </div>
         </header>
     </div>
