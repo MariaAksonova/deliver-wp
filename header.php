@@ -30,13 +30,15 @@
                     <nav id="site-navigation" class="main-navigation" role="navigation">
                         <?php wp_nav_menu(['theme_location' => 'main-nav', 'menu_class' => 'nav nav-pills']); ?>
                     </nav>
-                    <?php if ( is_page('home') ) :?>
-<!--                        <div class="bg-slider">-->
-<!--                            <div><img src="--><?//= get_template_directory_uri() ?><!--/images/header-bg.png"></div>-->
-<!--                            <div><img src="--><?//= get_template_directory_uri() ?><!--/images/header-bg.png"></div>-->
-<!--                            <div><img src="--><?//= get_template_directory_uri() ?><!--/images/header-bg.png"></div>-->
+<!--                    --><?php //if ( is_page('home') ) :?>
+<!--                    <div class="header-content">-->
+<!--                        <h1>We <span class="green-text">Deliver</span> nothing Short of Awesome!</h1>-->
+<!--                        <p>Check out our portfolio to see our great work.</p>-->
+<!--                        <div class="col-xs-12">-->
+<!--                            <a href="#" class="main-btn">Portfolio</a>-->
 <!--                        </div>-->
-                    <?php endif; ?>
+<!--                    </div>-->
+<!--                    --><?php //endif; ?>
                 </div>
             </div>
         </header>
