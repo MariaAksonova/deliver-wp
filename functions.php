@@ -206,3 +206,28 @@ function services_reviews_init() {
     register_post_type( 'services-reviews', $args );
 }
 add_action( 'init', 'services_reviews_init' );
+
+function works_reviews_init() {
+    $args = array(
+        'label' => 'Works',
+        'public' => true,
+        'show_ui' => true,
+        'capability_type' => 'post',
+        'hierarchical' => false,
+        'rewrite' => array('slug' => 'works-reviews'),
+        'query_var' => true,
+        'supports' => array(
+            'title',
+            'editor',
+            'excerpt',
+            'trackbacks',
+            'custom-fields',
+            'comments',
+            'revisions',
+            'thumbnail',
+            'author',
+            'page-attributes',)
+    );
+    register_post_type( 'works-reviews', $args );
+}
+add_action( 'init', 'works_reviews_init' );

@@ -27,19 +27,61 @@
   padding: 50px 0; }
 
 .home .about {
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 0; }
   .home .about .container {
     border-bottom: 1px solid #efefef; }
-  .home .about h2 {
-    font-size: 22px;
-    color: #666262;
-    text-transform: uppercase; }
   .home .about .content {
-    font-size: 16px;
-    color: #9b9999;
-    line-height: 24px; }
-  .home .about .tptn_counter {
-    display: none; }
+    margin-bottom: 50px; }
+
+.home .tptn_counter {
+  display: none; }
+
+.home ul {
+  list-style: none; }
+
+.home h2 {
+  font-size: 22px;
+  color: #666262;
+  text-transform: uppercase; }
+
+.home h3 {
+  font-size: 18px;
+  color: #666262;
+  text-transform: uppercase; }
+
+.home .content {
+  font-size: 16px;
+  color: #9b9999;
+  line-height: 24px; }
+
+.home .services li {
+  text-align: center;
+  padding-top: 80px;
+  background-position: 50% 0 !important;
+  margin-top: 8px; }
+
+.home .services .description {
+  font-size: 16px;
+  color: #9b9999;
+  line-height: 24px; }
+
+.home .works {
+  text-align: center;
+  background-color: #efefef; }
+  .home .works li {
+    text-align: center;
+    padding-top: 200px;
+    background-position: 50% 0 !important;
+    margin: 44px 0; }
+  .home .works .container {
+    border-bottom: 1px solid #efefef; }
+
+.home .purchase {
+  text-align: center; }
+  .home .purchase .main-btn {
+    margin-top: 10px;
+    display: inline-block; }
 
 .main {
   margin: 60px 0; }
@@ -241,3 +283,14 @@
     color: #fff;
     text-transform: uppercase;
     margin: 30px 0; }
+
+.green-text {
+  color: #87b672; }
+
+.main-btn {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: none;
+  background-color: #87b672;
+  padding: 14px 18px; }

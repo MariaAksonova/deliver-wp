@@ -7,25 +7,81 @@
 
   .about {
     text-align: center;
+    padding-bottom: 0;
 
     .container {
       border-bottom: 1px solid $bg-color;
     }
 
-    h2 {
-      font-size: 22px;
-      color: $main-color;
-      text-transform: uppercase;
-    }
-
     .content {
+      margin-bottom: 50px;
+    }
+  }
+
+  .tptn_counter {
+    display: none;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  h2 {
+    font-size: 22px;
+    color: $main-color;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-size: 18px;
+    color: $main-color;
+    text-transform: uppercase;
+  }
+
+  .content {
+    font-size: 16px;
+    color: $light-color;
+    line-height: 24px;
+  }
+
+  .services {
+
+      li {
+        text-align: center;
+        padding-top: 80px;
+        background-position: 50% 0!important;
+        margin-top: 8px;
+      }
+
+    .description {
       font-size: 16px;
       color: $light-color;
       line-height: 24px;
     }
+  }
 
-    .tptn_counter {
-      display: none;
+  .works {
+    text-align: center;
+    background-color: $bg-color;
+
+    li {
+      text-align: center;
+      padding-top: 200px;
+      background-position: 50% 0!important;
+      margin: 44px 0;
+    }
+
+    .container {
+      border-bottom: 1px solid $bg-color;
+    }
+  }
+
+  .purchase {
+    text-align: center;
+
+    .main-btn {
+      margin-top: 10px;
+      display: inline-block;
     }
   }
 }

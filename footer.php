@@ -15,11 +15,24 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'deliver' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'deliver' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'deliver' ), 'deliver', '<a href="https://automattic.com/" rel="designer">Underscores.me</a>' ); ?>
+			<div class="container">
+				<div class="main-footer">
+					<h1>
+						<?php the_custom_logo(); ?>
+						<p>2015 © lawyer.</p>
+					</h1>
+					<div class="footer-nav">
+						<h2>Navigation</h2>
+						<?php wp_nav_menu(['theme_location' => 'foot-nav', 'menu_class' => 'nav nav-pills']); ?>
+					</div>
+					<?php $recent = new WP_Query("pagename=footer-form"); while($recent->have_posts()) : $recent->the_post();?>
+						<?php the_content(); ?>
+					<?php endwhile; ?>
+				</div>
+			</div>
 		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+	</footer>
+
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

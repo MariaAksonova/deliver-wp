@@ -31,11 +31,11 @@
                         <?php wp_nav_menu(['theme_location' => 'main-nav', 'menu_class' => 'nav nav-pills']); ?>
                     </nav>
                     <?php if ( is_page('home') ) :?>
-                        <div class="bg-slider">
-                            <div><img src="<?= get_template_directory_uri() ?>/images/header-bg.png.png"></div>
-                            <div><img src="<?= get_template_directory_uri() ?>/images/header-bg.png.png"></div>
-                            <div><img src="<?= get_template_directory_uri() ?>/images/header-bg.png.png"></div>
-                        </div>
+<!--                        <div class="bg-slider">-->
+<!--                            <div><img src="--><?//= get_template_directory_uri() ?><!--/images/header-bg.png"></div>-->
+<!--                            <div><img src="--><?//= get_template_directory_uri() ?><!--/images/header-bg.png"></div>-->
+<!--                            <div><img src="--><?//= get_template_directory_uri() ?><!--/images/header-bg.png"></div>-->
+<!--                        </div>-->
                     <?php endif; ?>
                 </div>
             </div>

@@ -16,3 +16,16 @@
     margin: 30px 0;
   }
 }
+
+.green-text {
+  color: $green-color;
+}
+
+.main-btn {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: none;
+  background-color: $green-color;
+  padding: 14px 18px;
+}
