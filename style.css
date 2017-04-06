@@ -275,6 +275,55 @@
   .widget-area .tptn_posts_widget li:last-child {
     border-bottom: none; }
 
+.site-footer {
+  background-color: #333333;
+  padding: 54px 0; }
+  .site-footer .main-footer {
+    margin-bottom: 50px; }
+  .site-footer .custom-logo {
+    margin-bottom: 26px; }
+  .site-footer h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 0; }
+  .site-footer h3 {
+    color: #fff; }
+  .site-footer p {
+    font-size: 14px;
+    color: #9b9999;
+    line-height: 24px; }
+  .site-footer .menu-item {
+    width: 100%;
+    padding-left: 14px;
+    background: url("./images/bullet.png") 0 50% no-repeat;
+    margin-bottom: 4px; }
+    .site-footer .menu-item a {
+      color: #9b9999;
+      font-size: 14px;
+      padding: 0; }
+      .site-footer .menu-item a:hover, .site-footer .menu-item a:focus, .site-footer .menu-item a:active {
+        background-color: transparent;
+        color: #87b672; }
+  .site-footer .container {
+    border-bottom: 1px solid #efefef; }
+  .site-footer .wpcf7-email {
+    width: 160px;
+    border: none;
+    background-color: #666262;
+    color: #9b9999;
+    padding: 10px;
+    font-size: 14px; }
+  .site-footer .wpcf7-submit {
+    border: none;
+    background-color: #9b9999;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    margin-left: 4px; }
+  .site-footer .col-xs-12 {
+    margin-bottom: 14px; }
+
 .page-title {
   background: url("./images/bg.png");
   background-size: cover; }
