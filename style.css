@@ -102,7 +102,18 @@
       color: #666262;
       text-transform: uppercase; }
     .main .post-content .info {
-      margin: 28px 0; }
+      margin: 28px 0;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap; }
       .main .post-content .info .author {
         background: url("./images/user.png") 10% 50% no-repeat;
         background-color: #efefef; }
@@ -122,7 +133,8 @@
         color: #666262;
         text-transform: uppercase;
         padding: 14px 14px 14px 32px;
-        margin-right: 10px; }
+        margin-right: 10px;
+        margin-bottom: 10px; }
 
 .pagination h2, .pagination .next, .pagination .prev {
   display: none; }
@@ -251,7 +263,8 @@
     text-transform: uppercase;
     border: none;
     background-color: #87b672;
-    padding: 14px; }
+    padding: 14px;
+    margin-bottom: 10px; }
 
 .widget-area .widget-title {
   font-size: 18px;
