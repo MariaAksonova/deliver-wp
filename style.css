@@ -13,8 +13,7 @@
     color: #87b672; }
 
 .page-template-home-template .main-header {
-  background: url("./images/header-bg.png") no-repeat;
-  height: 100vh; }
+  background: url("./images/header-bg.png") no-repeat; }
 
 .page-template-home-template .menu-item a {
   color: #fff;
@@ -39,6 +38,8 @@
   .page-template-home-template .header-content .main-btn {
     background-color: transparent;
     border: 2px solid #fff; }
+  .page-template-home-template .header-content .col-xs-12 {
+    margin-bottom: 100px; }
 
 @media (max-width: 370px) {
   .page-template-home-template .menu-item a {
@@ -47,7 +48,7 @@
 
 @media (max-width: 700px) {
   .page-template-home-template .header-content h1 {
-    margin-top: 0; } }
+    margin-top: 10px; } }
 
 .home section {
   padding: 50px 0; }
